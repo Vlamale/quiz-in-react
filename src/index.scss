@@ -1,0 +1,53 @@
+@import "~bootstrap/scss/bootstrap";
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+ul {
+  list-style: none;
+}
+
+.buttons {
+  margin: 1rem 0 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+.add__question-btn {
+  margin-right: 10px;
+}
+
+.questions {
+  margin: 0 auto;
+  width: 55%;
+}
+
+.question {
+  &__title {
+    font-size: 1.3rem;
+  }
+  
+  &__answers {
+    display: flex;
+  }
+  
+  &__checkbox {
+    margin-right: 10px;
+  }
+  
+  &__number {
+    font-weight: 300;
+    font-size: 70px;
+  }
+}
